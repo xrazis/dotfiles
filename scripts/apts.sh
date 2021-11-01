@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Installing developer tools..."
 
 curl -L https://www.termius.com/download/linux/Termius.deb

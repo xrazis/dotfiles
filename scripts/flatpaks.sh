@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "Installing flatpak apps..."
 
 flatpak install flathub -y \
