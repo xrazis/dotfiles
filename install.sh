@@ -5,11 +5,14 @@ then
 	sudo apt-get install stow
 fi
 
-source ./scripts/apts.sh
+sudo source ./scripts/apts.sh
+sudo source ./scripts/snaps.sh
 source ./scripts/flatpaks.sh
-source ./scripts/snaps.sh
 
-rm ../.zshrc ../.hyper.js 
+rm ../.zshrc \
+	../.hyper.js \
+	../.config/pop-shell/config.json
 
-stow zsh
-stow hyper
+stow zsh \
+	hyper \
+	pop
