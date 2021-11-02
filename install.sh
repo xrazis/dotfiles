@@ -12,9 +12,11 @@ source ./scripts/flatpaks.sh
 rm ../.zshrc \
 	../.hyper.js \
 	../.config/pop-shell/config.json
-	../.gitconfig
+	../.gitconfig \
+	../.config/htop/htoprc
 
 stow zsh \
 	hyper \
 	pop \
-	git
+	git \
+	htop
