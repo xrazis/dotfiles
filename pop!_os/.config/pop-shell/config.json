@@ -1,0 +1,41 @@
+{
+  "float": [
+    {
+      "class": "Thunderbird"
+    },
+    {
+      "class": "Slack"
+    },
+    {
+      "class": "discord"
+    },
+    {
+      "class": "Mattermost"
+    },
+    {
+      "class": "Io.elementary.appcenter"
+    },
+    {
+      "class": "Microsoft Teams - Preview"
+    },
+    {
+      "class": "Element"
+    },
+    {
+      "class": "Signal"
+    },
+    {
+      "class": "Bitwarden"
+    },
+    {
+      "class": "Org.gnome.DejaDup"
+    },
+    {
+      "class": "TeamViewer"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false,
+  "move_pointer_on_switch": false,
+  "default_pointer_position": "TOP_LEFT"
+}
