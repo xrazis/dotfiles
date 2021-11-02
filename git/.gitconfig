@@ -1,0 +1,9 @@
+[user]
+	email = haris@razis.com
+	name = Haris Razis
+[commit]
+	gpgsign = true
+[push]
+	default = simple
+[pull]
+	rebase = false
