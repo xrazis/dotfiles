@@ -5,9 +5,12 @@ then
 	sudo apt-get install stow
 fi
 
-sudo source ./scripts/apts.sh
-sudo source ./scripts/snaps.sh
-source ./scripts/flatpaks.sh
+if [ "$1" == "apps" ]
+then
+	sudo source ./scripts/apts.sh
+	sudo source ./scripts/snaps.sh
+	source ./scripts/flatpaks.sh
+fi
 
 rm ../.zshrc \
 	../.hyper.js \
