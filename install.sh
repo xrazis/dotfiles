@@ -14,7 +14,7 @@ fi
 
 rm ../.zshrc \
 	../.hyper.js \
-	../.config/pop-shell/config.json
+	../.config/pop-shell/config.json \
 	../.gitconfig \
 	../.config/htop/htoprc
 
