@@ -23,3 +23,5 @@ stow zsh \
 	pop \
 	git \
 	htop
+
+echo "Done!"
