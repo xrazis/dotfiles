@@ -75,5 +75,8 @@ apt update && apt install signal-desktop
 echo "Installing speedtest..."
 apt install -y speedtest-cli
 
+echo "Installing restic..."
+apt install -y restic
+
 echo "Installing snapd..."
 sudo apt install snapd
