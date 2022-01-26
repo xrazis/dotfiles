@@ -32,6 +32,9 @@
     },
     {
       "class": "TeamViewer"
+    },
+    {
+      "class": "Spotify"
     }
   ],
   "skiptaskbarhidden": [],
