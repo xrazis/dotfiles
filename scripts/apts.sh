@@ -79,4 +79,7 @@ echo "Installing restic..."
 apt install -y restic
 
 echo "Installing snapd..."
-sudo apt install snapd
+apt install snapd
+
+echo "Installing httpie"
+apt install httpie
