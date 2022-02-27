@@ -15,5 +15,6 @@ flatpak install flathub -y \
   com.mattermost.Desktop \
   com.anydesk.Anydesk \
   com.github.micahflee.torbrowser-launcher \
-  md.obsidian.Obsidian
+  md.obsidian.Obsidian \
+  org.videolan.VLC \
   
