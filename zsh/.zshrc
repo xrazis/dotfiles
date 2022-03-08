@@ -29,3 +29,4 @@ export LC_ALL=en_US.UTF-8
 
 alias upsys="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && flatpak update -y && sudo snap refresh"
 alias rlogid="sudo service logid restart"
+alias cdnotes="cd VisualStudioCodeProjects/notes"
