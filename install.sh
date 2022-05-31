@@ -16,13 +16,13 @@ rm ../.zshrc \
 	../.hyper.js \
 	../.config/pop-shell/config.json \
 	../.gitconfig \
-	../.config/htop/htoprc
+	../etc/logid.cfg	
 
 stow zsh \
 	hyper \
 	pop \
-	git \
-	htop \
-	logiops
+	git
+
+stow -t /etc logiops
 
 echo "Done!"
