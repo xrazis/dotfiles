@@ -22,6 +22,7 @@ stow zsh \
 	hyper \
 	pop \
 	git \
-	htop
+	htop \
+	logiops
 
 echo "Done!"
