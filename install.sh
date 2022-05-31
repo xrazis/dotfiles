@@ -16,7 +16,7 @@ rm ../.zshrc \
 	../.hyper.js \
 	../.config/pop-shell/config.json \
 	../.gitconfig \
-	../etc/logid.cfg	
+	/etc/logid.cfg
 
 stow zsh \
 	hyper \
