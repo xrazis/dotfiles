@@ -8,6 +8,7 @@ fi
 if [ "$1" == "apps" ]
 then
 	sudo source ./scripts/apts.sh
+	sudo source ./scripts/directs.sh
 	sudo source ./scripts/snaps.sh
 	source ./scripts/flatpaks.sh
 fi
