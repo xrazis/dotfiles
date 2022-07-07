@@ -9,10 +9,6 @@ flatpak install flathub -y \
   org.gimp.GIMP \
   org.gnome.DejaDup \
   org.kde.kdenlive \
-  org.mozilla.firefox \
-  com.discordapp.Discord \
-  com.bitwarden.desktop \
-  com.mattermost.Desktop \
   com.anydesk.Anydesk \
   com.github.micahflee.torbrowser-launcher \
   md.obsidian.Obsidian \
