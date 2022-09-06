@@ -22,6 +22,12 @@ dpkg -i Termius.deb
 echo "Installing vs code..."
 apt install -y code
 
+echo "Installing firacode..."
+apt install -y fonts-firacode
+
+echo "Installing tilix..."
+apt install -y tilix  
+
 echo "Installing zsh..."
 apt install -y zsh
 
