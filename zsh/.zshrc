@@ -34,5 +34,5 @@ export NVM_DIR="$HOME/.nvm"
 
 alias upsys="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && flatpak update -y && sudo snap refresh"
 alias rlogid="sudo service logid restart"
-alias cdnotes="cd ~/Documents/notes"
+alias bnotes="cd ~/notes && git pull && git add -A && git commit -a -m "desktop backup: `date +'%Y-%m-%d %H:%M:%S'`" && git push"
 alias ipfscs="docker run -d --restart always --name ipfs_host -v ~/ipfs-container/ipfs_staging:/export -v ~/ipfs-container/ipfs_data:/data/ipfs -p 4001:4001 -p 4001:4001/udp -p 127.0.0.1:8080:8080 -p 127.0.0.1:5001:5001 ipfs/kubo:latest"
