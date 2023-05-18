@@ -3,7 +3,7 @@
 	name = Haris Razis
 	signingkey = 94AA0B1EFF6BD6E7
 [commit]
-	gpgsign = true
+	gpgsign = false
 [push]
 	default = simple
 [pull]

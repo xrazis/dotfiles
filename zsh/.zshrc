@@ -8,6 +8,8 @@ ENABLE_CORRECTION="false"
 
 COMPLETION_WAITING_DOTS="true"
 
+SPACESHIP_PROMPT_ASYNC=false
+
 plugins=(
 	docker
 	docker-compose
