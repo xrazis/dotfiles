@@ -8,3 +8,5 @@
 	default = simple
 [pull]
 	rebase = false
+[core]
+	autocrlf = input
