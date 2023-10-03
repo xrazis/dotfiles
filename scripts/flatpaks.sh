@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Installing flatpak apps..."
 flatpak install flathub -y \
