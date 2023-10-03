@@ -14,13 +14,11 @@ then
 fi
 
 rm ../.zshrc \
-	../.hyper.js \
 	../.config/pop-shell/config.json \
 	../.gitconfig \
 	/etc/logid.cfg
 
 stow zsh \
-	hyper \
 	pop \
 	git
 
