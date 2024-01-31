@@ -13,4 +13,5 @@ flatpak install flathub -y \
   com.github.micahflee.torbrowser-launcher \
   md.obsidian.Obsidian \
   org.videolan.VLC \
+  org.remmina.Remmina
   
