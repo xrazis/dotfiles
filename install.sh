@@ -22,6 +22,7 @@ stow zsh \
 	pop \
 	git
 
+#TODO Fix stow for logiops
 stow -t /etc logiops
 
 echo "Done!"
