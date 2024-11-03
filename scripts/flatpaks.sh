@@ -14,4 +14,3 @@ flatpak install flathub -y \
   md.obsidian.Obsidian \
   org.videolan.VLC \
   org.remmina.Remmina
-  

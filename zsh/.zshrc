@@ -35,7 +35,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias upsys="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && flatpak update -y && sudo snap refresh"
+alias upsys="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo snap refresh"
 alias rlogid="sudo service logid restart"
 alias ralsa="sudo alsa force-reload"
 alias bnotes="cd ~/notes && git pull && git add -A && git commit -a -m 'desktop backup: `date +"%Y-%m-%d %H:%M:%S"`' && git push"
